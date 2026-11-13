@@ -22,8 +22,6 @@ jobs:
         with:
           name: SpellChecker-x86
           path: |
-            /bin/Release//SpellChecker.dll
-            /bin/Release//SpellChecker.comhost.dll
-            /bin/Release//SpellChecker.runtimeconfig.json
-            /bin/Release//SpellChecker.deps.json
+            /bin/Release/net8.0//*.dll
+            /bin/Release/net8.0//*.json
           if-no-files-found: error
